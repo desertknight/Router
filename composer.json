@@ -1,0 +1,29 @@
+{
+    "name": "millennium/router",
+    "description": "Millennium Router Library",
+    "keywords": ["php", "router"],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zlatko Hristov",
+            "email": "zlatko.2create@gmail.com"
+        }
+    ],
+    "require": {
+        
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8"
+    },
+    "suggest": {
+        "ext-mbstring": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Millennium\\Router\\": "src"
+        }
+    }
+}
